@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cinema Tickets</title>
+	<link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='icons/css/all.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='lib/themes/default.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='lib/themes/default.date.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='lib/themes/default.time.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="jumbotron login-header">
+			<!-- <i class="fas fa-popcorn"></i> -->
+			<h1>Cinema Tickets</h1>
+		</div>
+	{% block content %}
+  {% endblock %}
+	</div>
+	<script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='bootstrap.bundle.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='lib/picker.js') }}"></script>
+	<script src="{{ url_for('static', filename='lib/picker.date.js') }}"></script>
+	<script src="{{ url_for('static', filename='lib/picker.time.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static',filename='app.js') }}"></script>
+</body>
+</html>

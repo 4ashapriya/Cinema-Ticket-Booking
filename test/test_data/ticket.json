@@ -1,0 +1,20 @@
+{
+  "input1":{
+    "ticket_type_requests":{
+        "adult_cout": 10,
+        "child_count": 5,
+        "infant_count": 5,
+        "date": "2022-11-04",
+        "film": "string"
+        },
+  "from_val":"0","size_val":"2"},
+
+  "input2":{
+    "ticket_type_requests":{
+        "adult_cout": 15,
+        "child_count": 5,
+        "infant_count": 5,
+        "date": "2022-11-04",
+        "film": "string"
+        },
+  "from_val":"0","size_val":"3"},}
